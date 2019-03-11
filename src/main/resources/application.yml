@@ -9,6 +9,8 @@ eureka:
     fetch-registry: false
     service-url:
      defaultZone: http://user:misaki@localhost:8761/eureka/
+  instance:
+    instance-id: my-eureka-service
 spring:
   security:
     user:
